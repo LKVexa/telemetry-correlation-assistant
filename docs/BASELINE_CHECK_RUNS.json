@@ -1,0 +1,32 @@
+{
+ "schema": "JY/CHECK_RUNS/1",
+ "program": "JY-S006-P001",
+ "version": "0.1.1-partial",
+ "refreshed_at": "2026-09-14T18:42:32.896589+00:00",
+ "executor": "claude cowork session 01SaQzDRzMFXvRabmCC6JDJD",
+ "runs": [
+  {
+   "check": "baseline unittest discover (build-0001)",
+   "result": "PASS",
+   "tests": 15
+  },
+  {
+   "check": "candidate unittest discover (0.1.1-partial)",
+   "result": "PASS",
+   "tests": 23
+  },
+  {
+   "check": "defect probes A007-F1..F4 reproduced on baseline",
+   "result": "PASS"
+  },
+  {
+   "check": "Windows-native launch",
+   "result": "UNRUN",
+   "reason": "no Windows runtime this session"
+  },
+  {
+   "check": "independent review",
+   "result": "NOT PERFORMED"
+  }
+ ]
+}
